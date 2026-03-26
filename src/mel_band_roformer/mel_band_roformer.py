@@ -224,7 +224,7 @@ class MaskEstimator(Module):
             dim,
             dim_inputs: Tuple[int, ...],
             depth,
-            mlp_expansion_factor=4
+            mlp_expansion_factor=1
     ):
         super().__init__()
         self.dim_inputs = dim_inputs
